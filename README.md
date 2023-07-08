@@ -85,13 +85,23 @@ Please use *./tools/gen_billiard_with_boundry.py* to create *SimB-Border* and *.
 Rendering dataset in *Blen* domain, requires ground-truth files under train/test folders (*./SimB-Border/train/00000.pkl*) and *train/test_env_meta.pkl* file under the dataset root folder (e.g., *./SimB-Border*). Blender engineer [file](https://drive.google.com/file/d/1IKjCPLdb6cClqq_A3ZRgOqmWUnHX8tqE/view?usp=sharing) need to be placed outside of the dataset root folder. Please check the engineer file for details. 
 
 ## Citing Our Work
-If you found our work are helping, please consider to cite our work (will update with ICML official bibtex):
+If you found our work are helping, please consider to cite our work:
 
 ```
-@InProceedings{xie-dynpredchallenge-2023,
+
+@InProceedings{pmlr-v202-xie23e,
   title = 	 {A Critical View of Vision-Based Long-Term Dynamics Prediction Under Environment Misalignment},
-  author =       {Xie, Hanchen and Zhu, Jiageng and Khayatkhoei, Mahyar and Li, Jiazhi and Hussein, Mohamed E. and AbdAlmageed, Wael},
+  author =       {Xie, Hanchen and Zhu, Jiageng and Khayatkhoei, Mahyar and Li, Jiazhi and Hussein, Mohamed E. and Abdalmageed, Wael},
   booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
-  year = 	 {2023}
+  pages = 	 {38258--38271},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/xie23e/xie23e.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/xie23e.html},
 }
+
 ```
